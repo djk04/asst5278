@@ -63,7 +63,7 @@ app.post("/", async (req, res) => {
       .connect(url, connectionParams)
       .then(() => {
         console.log("Connected to database ");
-        app.listen(7017, () => console.log("Server Up and running"));
+        app.listen(8000, () => console.log("Server Up and running"));
       })
       .catch((err) => {
         console.error(`Error connecting to the database. \n${err}`);
