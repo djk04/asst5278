@@ -1,8 +1,4 @@
 {
-  "name": "asst5_djk04",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
   "scripts": {
 "start": "node index.js" },
   "dependencies": {
@@ -11,4 +7,4 @@
     "mongodb": "^4.4.1",
     "request": "^2.88.2"
 }
-}
+
